@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "The Adventures of Bob",
+    "description": "Lets Follow journey of Babloo (full form of Bob) to collect treasure on this unlimited quest.",
+    "version": "0.0.1",
+    "author": "Kaustubh Saxena",
+    "icons": {
+        "48": "assets/icon.png"
+    },
+    "browser_action": {
+        "default_icon": "assets/icon.png",
+        "default_title": "The Adventures of Bob"
+    },
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "permissions": [
+        "activeTab"
+    ]
+}
